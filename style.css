@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box
+}
+
+.container {
+    width: 1000px;
+    overflow: hidden;
+    margin: 200px auto;
+}
+
+ .show-calc {
+    border: 2px solid #a4b0b1e5;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: #d4d3e6;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+ .box {
+    width: 25%;
+    height: 50px;
+    float: left;
+    border: 1px solid #FFF;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    transition: all .25s ease-in-out;
+    background-color: #3026c2;
+    color: #fff;
+    cursor: pointer;
+}
+
+ .box:hover {
+    background: #1E8BC3
+}
+
+ .box-opr {
+    background: #161818fa
+}
+
+ .box-reset,
+ .box-clear {
+    width: 50%
+}
+
+ .box-reset {
+    background: #af44b3
+}
+
+ .box-clear {
+    background: #f22613
+}
